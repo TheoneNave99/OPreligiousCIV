@@ -1,25 +1,38 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Order Statue",
+		"replaces": "Shrine",
+		"uniqueTo": "Holy Order",
+		"faith": 2,
+		"gold": 2,
+		"cost": 20,
+		"maintenance": 0,
+		"uniques": ["[+3 Culture, +3 Faith, +3 Happiness] from every [Holy site] [in this city]"],
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Order Stockpile",
+		"replaces": "Granary",
+		"uniqueTo": "Holy Order",
+		"food": 2,
+		"production": 1,
+		"cost": 20,
+		"maintenance": 0,
+		"uniques": ["[+3 Culture, +3 Gold, +3 Production] from every [Holy site] [in this city]"],
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Order Scribes",
+		"replaces": "Library",
+		"uniqueTo": "Holy Order",
+		"science": 2,
+		"production": 1,
+		"cost": 20,
+		"maintenance": 0,
+		"uniques": ["[+3 Culture, +3 Faith, +3 Science] from every [Holy site] [in this city]"],
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
 ]
