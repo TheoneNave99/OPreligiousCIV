@@ -8,7 +8,7 @@
 		"strength": 19,
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["Can move immediately once bought", "Can build [Fort] improvements on tiles", "[+20]% Strength <when defending>"],
+		"uniques": ["Can move immediately once bought", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "[+20]% Strength <when defending>"],
 		"promotions": ["Shock I"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -26,5 +26,17 @@
 			"[+1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
 		"movement": 6,
 		"religiousStrength": 1000
+	},
+		{
+		"name": "Martyr",
+		"unitType": "Civilian",
+		"uniqueTo": "Holy Order",
+		"uniques": [
+            	"Can Spread Religion <for [1] movement> <[1] times> <after which this unit is consumed>", "Removes other religions when spreading religion",
+		"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            	"May enter foreign tiles without open borders", "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+		"[+1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 6,
+		"religiousStrength": 1500
 	},
 ]
