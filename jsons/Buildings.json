@@ -19,7 +19,7 @@
 		"production": 1,
 		"cost": 20,
 		"maintenance": 0,
-		"uniques": ["[+3 Culture, +3 Gold, +3 Production] from every [Holy site] [in this city]"],
+		"uniques": ["[+3 Culture, +3 Gold, +3 Production] from every [Holy site] [in this city]", "[+10]% [Faith] [in all cities]"],
 		"requiredTech": "Pottery",
 		"uniques": ["[+20]% Production when constructing [Civilian] units [in this city]"]
 	},
